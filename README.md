@@ -15,7 +15,7 @@ Prerequisite software
 
 Setup procedure
 ----------------
-There are a few jars that are not available in any public maven repositories which are hosted on DiUS Resilience artifactory instance which is on the same box as the CI Server.  Therefore if you are not on the DiUS network when you do your first build, you will need the following jars to be in your local maven repository.  They are checked in to the libs/external folder for convenience.  Run the install command in that folder.
+There are a few jars that are not available in any public maven repositories which are hosted on DiUS Resilience artifactory instance which is on the same box as the CI Server.  Therefore if you are not on the DiUS network when you do your first build, you will need the following jars to be in your local maven repository.  They are checked in to the libraries/external folder for convenience.  Run the install command in that folder.
 
 	./install-local-libs.sh
 
@@ -26,7 +26,7 @@ Emulator
 --------
   An emulator is required, follow the steps in this article to setup a performant emulator.
 
-  http://codebutler.com/2012/10/10/configuring-a-usable-android-emualtor
+  http://codebutler.com/2012/10/10/configuring-a-usable-android-emulator/
 
   Deviations from this article
   ----------------------------
